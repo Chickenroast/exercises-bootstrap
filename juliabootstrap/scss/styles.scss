@@ -2,8 +2,33 @@
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-// custom variables
-$primary: #20c997;
-.row {
-    background-color: #20c997;
+// // custom variables
+// $primary: #20c997;
+
+body {
+    height: 100%;
+    width:100%
 }
+
+.container-fluid {
+    margin-top: 10px;
+    background-color: violet;
+    border-radius: 15px;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+
+.row {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.custom-col {
+    background-color: violet;
+    border-radius: 10pt;
+    border: solid;
+    border-color: black;
+    padding: 10px;
+}
+
